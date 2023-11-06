@@ -1,4 +1,6 @@
 # General
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmichaeldorner%2Ftest.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmichaeldorner%2Ftest?ref=badge_shield)
+
 
 grid2vec is a rewrite of grid2op that aims to address some of the weaknesses we encountered while using grid2op.
 
@@ -104,3 +106,6 @@ There are multiple masks,
 These allow to have granular control over which parts of the net should be part of the action space. As we run our PoC on data of the entire european net but only control the german section of it, this is necessary.
 
 The n-1 masks are stored in an nminus1_definition as defined in nminus1_definition.py. The action space masks are mainly processed in env.py but loaded along the grid. The reward masks are processed in env.py but loaded along the grid.
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fmichaeldorner%2Ftest.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fmichaeldorner%2Ftest?ref=badge_large)
